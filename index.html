@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TShop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="page-header">
+            <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="cta"><button>Contact</button></a>
+        </header>
+
+        <div id="Intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <h1 class="logo-Intro">We Made<br> &nbsp;&nbsp;&nbsp;We Repair</h1>
+                    </div>
+                    <div class="col-2">
+                        <h1 class="sub-title">About</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugit eum eius natus
+                            facilis, iure possimus amet earum voluptas esse sit est reprehenderit inventore praesentium
+                            illum deleniti exercitationem aut corrupti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut hic, fugiat optio perferendis
+                            voluptas odio numquam ratione eum expedita sint! Numquam ducimus blanditiis quidem ullam nam.
+                            Porro sint consequuntur debitis.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut hic, fugiat optio perferendis
+                            voluptas odio numquam ratione eum expedita sint! Numquam ducimus blanditiis quidem ullam nam.
+                            Porro sint consequuntur debitis.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut hic, fugiat optio perferendis
+                            voluptas odio numquam ratione eum expedita sint! Numquam ducimus blanditiis quidem ullam nam.
+                            Porro sint consequuntur debitis.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Projects" class="page">
+            <div class="container">
+                <h2>Projects</h2>
+            </div>
+        </div>
+
+        <div id="About" class="page">
+            <div class="container">
+                <h2>About</h2>
+            </div>
+        </div>
+
+        <section class="banner"></section>
+
+        <footer>
+            <div class="copyright">
+                <p>Copyright &#169; T&#45;Shop <i class="fas fa-heart"></i> by Me</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+
+</html>
